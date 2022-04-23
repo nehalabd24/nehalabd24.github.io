@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html {
+    background-image: url('images.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    background: #34495e;
+
+}
+
+.box {
+    width: 300px;
+    display: block;
+    border: 2px solid white;
+    background-size: 400% 400%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    text-align: center;
+}
+
+.box h1 {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+p {
+    color: white;
+    padding-top: 15px;
+    padding-left: 35px;
+    bottom: 10px;
+    float: left;
+}
+
+span {
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+span:hover {
+    transition: 0.2s;
+    color: white;
+}
+
+.text:hover {
+    color: #2ecc71;
+    cursor: pointer;
+}
+
+.field {
+    background: rgba(255, 255, 255, 0.5);
+    display: block;
+    font-size: 15px;
+    border: none;
+    border-radius: 24px;
+    text-align: center;
+    margin: 20px auto;
+    border: 2px solid white;
+    padding: 10px 5px;
+    width: 220px;
+    outline: none;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+
+}
+
+.field:focus {
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.field:hover,
+#signin:hover {
+    border-color: #2ecc71;
+}
+
+#signin {
+    background: none;
+    width: 50%;
+    margin-top: 100px;
+    padding: 14px 10px;
+    cursor: pointer;
+
+}
